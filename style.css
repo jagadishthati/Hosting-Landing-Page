@@ -21,7 +21,6 @@ body{
 top: 3vw;
 left: 4vw;
 width: 7vw;
-height: 7vh;
 }
 .list{
     display: flex;
@@ -48,13 +47,16 @@ height: 7vh;
 }
 .main-1{
     display: flex;
-    justify-content: space-between;
-    gap: 17vw;
+   justify-content: space-between;
+   margin-left: 11vw;
 
 }
 .context1{
-    margin-top: 13vh;
-    margin-left: 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  gap: 2vw;
 }
 
 .heading1{   
@@ -63,24 +65,23 @@ width: 29vw;
   
 }
 .p1{
-    margin-top: 3vh;
     width: 31vw;
 }
 .btn1{
-    margin-top: 3vh;
     background: #298acf;
     color: white;
     font-weight: 600;
-    padding: 1%;
+    padding: 1vw;
     border: 2px solid skyblue;
     border-radius: 8px;
+    border: none;
     box-shadow: 0px 0px 5px #726969;
 }
 
-.img1 svg {
+/* .img1 svg {
     margin-top: 6vh;
     margin-right: 3vw;
-}
+} */
 .img-2{
     margin-left: -49vw;
     margin-top: -20vh;
@@ -88,8 +89,8 @@ width: 29vw;
 
 .main-2{
     display: flex;
-    justify-content: space-between;
-    gap: 7vw;
+   justify-content: center;
+    gap: 12vw;
     margin-right: 2vw;
     
 }
@@ -109,19 +110,21 @@ width: 29vw;
     background: #298acf;
     color: white;
     font-weight: 600;
-    padding: 1%;
+    padding: 1vw;
+    width: fit-content;
     border: 2px solid skyblue;
     border-radius: 8px;
     box-shadow: 0px 0px 5px #726969;
 }
 .main-3{
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
 }
 .context3{
-    margin-top: 23vh;
-    margin-left: 3vw;
+   display: flex;
+   flex-direction: column;
 }
 
 .heading3{   
@@ -138,35 +141,36 @@ width: 29vw;
     background: #298acf;
     color: white;
     font-weight: 600;
-    padding: 1%;
+    padding: 1vw;
     border: 2px solid skyblue;
     border-radius: 8px;
     box-shadow: 0px 0px 5px #726969;
+    width: fit-content;
 }
 .img-3{
     width: 42vw;
 }
 .context4{
     margin-top: 2vh;
-    margin-left: 3vw;
+  display: flex;
+  gap: 20vw;    
 }
 
 .heading4{   
 font-size: calc(60px + (300 - 60) * ((15vw - 300px) / (1600 - 300)));
 width: 29vw;
+margin-left: 7vw;
   
 }
 .p4{
     width: 31vw;
-    float: right;
-    margin-right: 14vw;
-    margin-top: -12vh;
   
 }
 .host{
     margin-top: 10vh;
     display: flex;
-    margin-left: 10vw;
+   justify-content: center;
+   align-items: center;
     gap: 5vw;
 }
  
@@ -185,7 +189,8 @@ width: 29vw;
 .host02{
     margin-top: 8vh;
     display: flex;
-    margin-left: 10vw;
+    justify-content: center;
+    align-items: center;
     gap: 5vw;
 }
  
@@ -213,19 +218,24 @@ width: 29vw;
 .flexible{
     display: flex;
     margin-left: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 6vw;
     flex-wrap: wrap;
 }
-.head h1 {
+.head-1 h1 {
     text-align: center;
     color: white;
     margin-bottom: 5vh;
     padding-top: 2vw;
 }
-.head{
+.head-1{
     background: #298acf;
     margin-top: 8vh;
-    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    padding: 3vw;
 }
 .firstcolumn{
     background: white;
@@ -324,7 +334,8 @@ margin-left: 4vw
     display: flex;
     gap: 10vw;
     margin-top: 7vh;
-    margin-left: 16vw;
+  justify-content: center;
+  align-items: center;
 }
 .michael{
     width: 25vw;
@@ -340,7 +351,8 @@ box-shadow: 1px 1px 1px 2px whitesmoke;
     display: flex;
     gap: 10vw;
     margin-top: 3vh;
-    margin-left: 16vw;
+ justify-content: center;
+ align-items: center;
 }
 
 .michael-1{
@@ -349,36 +361,43 @@ box-shadow: 1px 1px 1px 2px whitesmoke;
     border: seashell;
 }
 .quit{
-    width: 100vw;
     background: #1B98F5;
     margin-top: 8vh;
     color: white;
-    height: 25vh;
+    padding: 2vw;
+    display: flex;
+    justify-content: center;
+    gap: 30vw;
+    align-items: center;
+
 }
 .quit-1{
     padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 .quit p{
     margin-left: 2vw;
+    width: 30vw;
 }
 .quit button {
 
-    float: right;
-    margin-top: -14vh;
-    margin-right: 9vw;
     width: 13vw;
     height: 5vh;
     color: white;
     background: transparent;
     border: 2px solid white;
-    text-align: center;
-    text-align-last: center;
     font-size: medium;
     font-weight: bold;
 }
 .footer{
     margin-top: 10vh;
-margin-left: 6vw;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 .logo01 img{
     width: 10vw;
@@ -389,7 +408,6 @@ margin-left: 6vw;
 }
 .footer01{
     display: flex;
-margin-top: -15vh;
 margin-left: 25vw;
 gap: 5vw;
 }
@@ -454,5 +472,81 @@ font-size: medium;
 @media (max-width:1000px){
     .main-1{
         gap: 5vw;
+    }
+}
+@media (max-width:800px){
+    .main-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2vw;
+    }
+    .main-2{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 2vw;
+    }
+    .main-3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2vw;
+    }
+    .context4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 7vw;
+    }
+    .host{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:3vw;
+flex-direction: column;
+    }
+    .host02{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:3vw;
+        flex-direction: column;
+    }
+    .flexible{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .review{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .review-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .quit{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5vh    ;
+    }
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5vh    ;
     }
 }
