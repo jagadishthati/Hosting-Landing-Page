@@ -222,7 +222,6 @@ margin-left: 7vw;
     justify-content: center;
     align-items: center;
     gap: 6vw;
-    flex-wrap: wrap;
 }
 .head-1 h1 {
     text-align: center;
